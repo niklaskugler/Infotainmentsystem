@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/car_model.qml</file>
+        <file>qml/Fahrzeug_Modell-Formular.ui.qml</file>
+        <file>qml/Geocode.qml</file>
+        <file>qml/klima_disp_codriver.qml</file>
+        <file>qml/klima_disp_driver.qml</file>
+        <file>qml/Klima_Display-Formular.ui.qml</file>
+        <file>qml/map.qml</file>
+        <file>qml/ReverseGeocode.qml</file>
+        <file>qml/RouteAddress.qml</file>
+        <file>qml/RouteCoordinate.qml</file>
+        <file>qml/SideMenu.qml</file>
+        <file>qml/Switch_button-Formular.ui.qml</file>
+        <file>qml/switch1.qml</file>
+    </qresource>
+</RCC>

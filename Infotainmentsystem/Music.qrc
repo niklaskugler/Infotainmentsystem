@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Music/Adel Tawil - Lieder.mp3</file>
+        <file>Music/Bastille - Pompeii.mp3</file>
+        <file>Music/OneRepublic - Counting Stars.mp3</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InfotainmentsystemWindow</class>
+ <widget class="QMainWindow" name="InfotainmentsystemWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Infotainmentsystem</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(91, 91, 91, 255));</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_start">
+       <widget class="QLabel" name="label_date_time">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>5</y>
+          <width>100</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Fahrzeug">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>290</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>FAHRZEUG</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pb_Radio">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>190</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(81, 81, 81, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="Images.qrc">
+          <normaloff>:/Images/radio_icon_1.png</normaloff>:/Images/radio_icon_1.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>250</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(81, 81, 81, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="Images.qrc">
+          <normaloff>:/Images/music_icon_2.png</normaloff>:/Images/music_icon_2.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_PhoneApps">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>290</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>PHONE APPS</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Telefon">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>130</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>TELEFON</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Medien">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>130</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>MEDIEN</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Radio">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>130</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>RADIO</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Nachrichten">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>130</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>NACHRICHTEN</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Einstellungen">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>290</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>EINSTELLUNGEN</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="tb_Navigation">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>290</y>
+          <width>210</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>NAVIGATION</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 170, 0, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset;</string>
+        </property>
+        <property name="text">
+         <string>MENÜ</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pb_Navigation">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>370</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(81, 81, 81, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="Images.qrc">
+          <normaloff>:/Images/icon_navigation.png</normaloff>:/Images/icon_navigation.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>310</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(81, 81, 81, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-width: 1.2px; 
+border-style:inset; 
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="Images.qrc">
+          <normaloff>:/Images/phone_icon_1.png</normaloff>:/Images/phone_icon_1.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_radio">
+       <layout class="QVBoxLayout" name="verticalLayout_3"/>
+      </widget>
+      <widget class="QWidget" name="page_navigation">
+       <layout class="QVBoxLayout" name="verticalLayout_4"/>
+      </widget>
+      <widget class="QWidget" name="page_vehicle">
+       <layout class="QVBoxLayout" name="verticalLayout_5"/>
+      </widget>
+      <widget class="QWidget" name="page_settings">
+       <layout class="QVBoxLayout" name="verticalLayout_6"/>
+      </widget>
+      <widget class="QWidget" name="page_mediaPlayer">
+       <layout class="QVBoxLayout" name="verticalLayout_7"/>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
